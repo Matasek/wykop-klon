@@ -1,5 +1,6 @@
 :root {
   --black: #000;
+  --headerColor: #3c3c3c;
 }
 
 * {
@@ -10,4 +11,16 @@
 
 body {
   background-color: var(--black);
+}
+
+.header {
+  background-color: var(--headerColor);
+  width: 100%;
+  height: 80px;
+}
+
+.slidebar-left {
+  background-color: #1d1d1f;
+  width: 200px;
+  height: 100vh;
 }
