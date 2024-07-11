@@ -4,6 +4,7 @@
   --headerColorBright: #565656;
   --fontWhite: #dddddd;
   --headerButtonBackground: rgba(255, 255, 255, 0.1);
+  --navMainBorderRadius: 8px;
 }
 
 * {
@@ -23,9 +24,11 @@ body {
 .header {
   background-color: var(--headerColor);
   display: flex;
+  align-items: center;
   font-size: 0.9rem;
   font-weight: 400;
   width: 100%;
+
   height: 48px;
 }
 
@@ -34,7 +37,8 @@ body {
   display: flex;
   align-items: center;
   width: 50%;
-  padding: 2px;
+  height: 40px;
+  padding: 12px;
   padding-left: 8px;
 }
 .header-right {
@@ -43,8 +47,9 @@ body {
   justify-content: flex-end;
   align-items: center;
   width: 50%;
-  padding: 2px;
+  padding: 12px;
   padding-right: 8px;
+  height: 48px;
 }
 
 .header-button {
@@ -78,32 +83,40 @@ body {
 .main-menu-ul {
   display: flex;
   list-style-type: none;
-  padding: 0;
   margin: 0;
 }
 
 .main-menu-li {
-  padding: 0.75rem 1rem;
+  padding: 0.5rem 1rem;
   text-align: center;
+  transition: background-color 0.25s ease, border-radius 0.25s ease;
 }
 .main-menu-li:hover {
+  cursor: pointer;
   background-color: var(--headerColorBright);
+  border-radius: var(--navMainBorderRadius);
 }
 
 .main-menu-li-wykopalisko {
   position: relative;
-  padding: 0.75rem 1rem;
+  padding: 0.5rem 1rem;
+  transition: background-color 0.25s ease, border-radius 0.25s ease;
 }
 .main-menu-li-wykopalisko:hover {
+  cursor: pointer;
   background-color: var(--headerColorBright);
+  border-radius: var(--navMainBorderRadius);
 }
 
 .main-menu-li-mikroblog {
-  padding: 0.75rem 1rem;
+  padding: 0.5rem 1rem;
+  transition: background-color 0.25s ease, border-radius 0.25s ease;
 }
 
 .main-menu-li-mikroblog:hover {
+  cursor: pointer;
   background-color: var(--headerColorBright);
+  border-radius: var(--navMainBorderRadius);
 }
 
 .wykopalisko-number {
@@ -118,12 +131,22 @@ body {
   padding: 1px 4px;
 }
 
-.icons {
+.user-nav {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 200px;
   padding: 1px 4px;
+}
+
+.icons {
+  transition: background-color 0.25s ease, border-radius 0.25s ease;
+}
+
+.icons:hover {
+  cursor: pointer;
+  background-color: var(--headerColorBright);
+  border-radius: var(--navMainBorderRadius);
 }
 
 .icons img {
