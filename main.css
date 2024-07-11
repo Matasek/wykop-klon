@@ -1,6 +1,7 @@
 :root {
   --black: #000;
   --headerColor: #3c3c3c;
+  --headerColorBright: #565656;
   --fontWhite: #dddddd;
   --headerButtonBackground: rgba(255, 255, 255, 0.1);
 }
@@ -14,6 +15,7 @@
 body {
   background-color: var(--black);
   color: var(--fontWhite);
+  font-family: "Open Sans", sans-serif;
 }
 
 /* HEADER */
@@ -21,7 +23,10 @@ body {
 .header {
   background-color: var(--headerColor);
   display: flex;
+  font-size: 0.9rem;
+  font-weight: 400;
   width: 100%;
+  height: 48px;
 }
 
 .header-left {
@@ -62,7 +67,12 @@ body {
 }
 
 .header-logo {
-  padding: 0.5rem;
+  width: 144px;
+  padding: 4px;
+}
+
+.header-logo img {
+  width: 100%;
 }
 
 .main-menu-ul {
@@ -72,8 +82,97 @@ body {
   margin: 0;
 }
 
-.main-menu-ul li {
-  padding: 0.75rem;
+.main-menu-li {
+  padding: 0.75rem 1rem;
+  text-align: center;
+}
+.main-menu-li:hover {
+  background-color: var(--headerColorBright);
+}
+
+.main-menu-li-wykopalisko {
+  position: relative;
+  padding: 0.75rem 1rem;
+}
+.main-menu-li-wykopalisko:hover {
+  background-color: var(--headerColorBright);
+}
+
+.main-menu-li-mikroblog {
+  padding: 0.75rem 1rem;
+}
+
+.main-menu-li-mikroblog:hover {
+  background-color: var(--headerColorBright);
+}
+
+.wykopalisko-number {
+  position: absolute;
+  top: -2px;
+  left: 5.5rem;
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--fontWhite);
+  background-color: var(--headerColorBright);
+  border-radius: 5px;
+  padding: 1px 4px;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  padding: 1px 4px;
+}
+
+.icons img {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-container {
+  display: flex;
+  align-items: center;
+  background-color: var(--black);
+  border: 1px solid rgb(44, 44, 44);
+  border-radius: 6px;
+  width: 260px;
+  height: 40px;
+}
+
+.form-search {
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.search-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.input-search {
+  background-color: var(--black);
+  border: none;
+  outline: none;
+  width: 100%;
+  height: 100%;
+  padding-left: 10px;
+  font-weight: 500;
+  font-size: 14px;
+  color: #dedeff;
+}
+
+.input-search::placeholder {
+  color: #def5ff;
 }
 
 .slidebar-left {

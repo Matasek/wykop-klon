@@ -5,6 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Wykop - klon by MacKry</title>
     <link rel="stylesheet" href="main.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header class="header">
@@ -12,22 +19,45 @@
         <button class="header-button">
           <img src="icons/menu-svgrepo-com(1).svg" alt="menu-icon" />
         </button>
-        <div class="header-logo">LOGO</div>
+        <div class="header-logo">
+          <img src="icons/WykopLogo.png" alt="wykop logo" class="logo-wykop" />
+        </div>
         <nav class="main-menu">
           <ul class="main-menu-ul">
-            <li>Główna</li>
-            <li>Wykopalisko</li>
-            <li>Mikroblog</li>
+            <li class="main-menu-li">Główna</li>
+            <li class="main-menu-li-wykopalisko">
+              Wykopalisko
+              <strong class="wykopalisko-number">268</strong>
+            </li>
+            <li class="main-menu-li-mikroblog">Mikroblog</li>
           </ul>
         </nav>
       </div>
       <div class="header-right">
-        <section class="search">search</section>
-        <nav class="user-nav">user</nav>
+        <section class="search">
+          <form id="form" class="form-container">
+            <label class="form-search" for="form">
+              <img src="icons/lupa.png" alt="icon" class="search-icon" />
+            </label>
+            <input
+              type="text"
+              class="input-search"
+              placeholder="Szukaj w Wykopie..."
+            />
+          </form>
+        </section>
+        <nav class="user-nav">
+          <div class="icons">
+            <img src="icons/koperta.png" alt="icon" />
+            <img src="icons/dzwonek.png" alt="icon" />
+            <img src="icons/hash.png" alt="icon" />
+            <img src="icons/avatar.png" alt="icon" />
+          </div>
+        </nav>
       </div>
     </header>
     <main>
-      <aside class="slidebar-left">ddd</aside>
+      <aside class="slidebar-left"></aside>
       <div class="main-content">
         <aside class="hits-top"></aside>
         <section class="main"></section>
