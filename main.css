@@ -19,6 +19,72 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+/* MAIN */
+
+main {
+  display: flex;
+}
+
+/* SLIDEBAR LEFT */
+.slidebar-left {
+  display: flex;
+  justify-content: center;
+  background-color: #1d1d1f;
+  margin: 4px;
+  width: 250px;
+  height: 100vh;
+  border-radius: 6px;
+}
+
+.slidebar-left.short {
+  width: 50px;
+}
+
+.slidebar-top-icons {
+  display: flex;
+}
+.slidebar-left-content-large.off {
+  display: none;
+}
+.slidebar-left-content-small {
+  display: none;
+}
+.slidebar-left-content-small.active {
+  display: block;
+}
+
+.fire-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 4px;
+}
+
+.fa-star,
+.fa-eye,
+.fa-fire {
+  text-align: center;
+  padding: 6px;
+  font-size: 18px;
+  width: 70px;
+  height: 35px;
+  border: 0.5px solid var(--headerColorBright);
+  border-radius: 6px;
+  color: var(--headerColorBright);
+  transition: color 0.25s;
+}
+
+.fa-star:hover,
+.fa-eye:hover,
+.fa-fire:hover {
+  color: var(--fontWhite);
+}
+
+.icon-text {
+  font-size: 12px;
+}
+
 /* HEADER */
 
 .header {
@@ -33,7 +99,6 @@ body {
 }
 
 .header-left {
-  /* background-color: green; */
   display: flex;
   align-items: center;
   width: 50%;
@@ -42,7 +107,6 @@ body {
   padding-left: 8px;
 }
 .header-right {
-  /* background-color: blue; */
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -57,7 +121,7 @@ body {
   height: 34px;
   background-color: var(--headerButtonBackground);
   border-radius: 6px;
-  border: 0;
+  border: 1px solid rgb(46, 46, 46);
   color: var(--fontWhite);
   display: flex;
   justify-content: center;
@@ -95,6 +159,7 @@ body {
   cursor: pointer;
   background-color: var(--headerColorBright);
   border-radius: var(--navMainBorderRadius);
+  border: 1px solid rgb(46, 46, 46);
 }
 
 .main-menu-li-wykopalisko {
@@ -106,6 +171,7 @@ body {
   cursor: pointer;
   background-color: var(--headerColorBright);
   border-radius: var(--navMainBorderRadius);
+  border: 1px solid rgb(46, 46, 46);
 }
 
 .main-menu-li-mikroblog {
@@ -117,6 +183,7 @@ body {
   cursor: pointer;
   background-color: var(--headerColorBright);
   border-radius: var(--navMainBorderRadius);
+  border: 1px solid rgb(46, 46, 46);
 }
 
 .wykopalisko-number {
@@ -195,10 +262,4 @@ body {
 
 .input-search::placeholder {
   color: #def5ff;
-}
-
-.slidebar-left {
-  background-color: #1d1d1f;
-  width: 200px;
-  height: 100vh;
 }

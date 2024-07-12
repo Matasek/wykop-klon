@@ -12,11 +12,15 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
   </head>
   <body>
     <header class="header">
       <div class="header-left">
-        <button class="header-button">
+        <button class="header-button" id="header-button">
           <img src="icons/menu-svgrepo-com(1).svg" alt="menu-icon" />
         </button>
         <div class="header-logo">
@@ -57,12 +61,41 @@
       </div>
     </header>
     <main>
-      <aside class="slidebar-left"></aside>
+      <aside class="slidebar-left" id="slidebar-left">
+        <div
+          class="slidebar-left-content-large"
+          id="slidebar-left-content-large"
+        >
+          <div class="slidebar-left-content-icons">
+            <div id="slidebar-top-icons" class="slidebar-top-icons">
+              <div class="fire-icon">
+                <i class="fa-solid fa-fire"></i>
+                <div class="icon-text">Hity</div>
+              </div>
+              <div class="fire-icon">
+                <i class="fa-solid fa-eye"></i>
+                <div class="icon-text">Obserwowane</div>
+              </div>
+              <div class="fire-icon">
+                <i class="fa-regular fa-star"></i>
+                <div class="icon-text">Ulubione</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="slidebar-left-content-small"
+          id="slidebar-left-content-small"
+        >
+          ddd
+        </div>
+      </aside>
       <div class="main-content">
         <aside class="hits-top"></aside>
         <section class="main"></section>
         <aside class="slidebar-right"></aside>
       </div>
     </main>
+    <script src="main.js"></script>
   </body>
 </html>
