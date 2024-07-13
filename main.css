@@ -81,6 +81,51 @@ main {
   color: var(--fontWhite);
 }
 
+.slidebar-left-nav {
+  padding: 4px;
+}
+.slidebar-left-nav a p {
+  padding: 0 10px;
+}
+.slidebar-left-main-ul a {
+  display: flex;
+  padding: 6px 10px;
+  text-decoration: none;
+  color: var(--fontWhite);
+  font-size: 16px;
+  background-color: var(--headerColor);
+  border-radius: 8px;
+}
+.slidebar-left-nav a img {
+  color: white;
+  width: 22px;
+}
+
+.slidebar-left-main-ul {
+  list-style: none;
+  border-top: 1px solid var(--headerColor);
+  padding-top: 12px;
+}
+
+.slidebar-left-second-ul a {
+  display: flex;
+  padding: 6px 10px;
+  text-decoration: none;
+  color: var(--fontWhite);
+  font-size: 16px;
+  border-radius: 8px;
+}
+
+.slidebar-left-second-ul {
+  list-style: none;
+  border-top: 1px solid var(--headerColor);
+  padding-top: 12px;
+  margin-top: 10px;
+}
+
+.slidebar-left-second-ul li {
+  padding: 4px 0;
+}
 .icon-text {
   font-size: 12px;
 }
@@ -159,7 +204,6 @@ main {
   cursor: pointer;
   background-color: var(--headerColorBright);
   border-radius: var(--navMainBorderRadius);
-  border: 1px solid rgb(46, 46, 46);
 }
 
 .main-menu-li-wykopalisko {
@@ -171,7 +215,6 @@ main {
   cursor: pointer;
   background-color: var(--headerColorBright);
   border-radius: var(--navMainBorderRadius);
-  border: 1px solid rgb(46, 46, 46);
 }
 
 .main-menu-li-mikroblog {
@@ -183,7 +226,6 @@ main {
   cursor: pointer;
   background-color: var(--headerColorBright);
   border-radius: var(--navMainBorderRadius);
-  border: 1px solid rgb(46, 46, 46);
 }
 
 .wykopalisko-number {
