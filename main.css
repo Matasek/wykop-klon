@@ -8,7 +8,7 @@ main {
 .slidebar-left {
   display: flex;
   justify-content: center;
-  background-color: #1d1d1f;
+  background-color: var(--sliderLeftBackground);
   margin: 4px;
   width: 250px;
   height: 100vh;
@@ -57,7 +57,7 @@ main {
 .fa-star:hover,
 .fa-eye:hover,
 .fa-fire:hover {
-  color: var(--fontWhite);
+  color: var(--slidebarLeftFontColor);
 }
 
 .slidebar-left-nav {
@@ -70,7 +70,7 @@ main {
   display: flex;
   padding: 6px 10px;
   text-decoration: none;
-  color: var(--fontWhite);
+  color: var(--slidebarLeftFontColor);
   font-size: 16px;
   background-color: var(--headerColor);
   border-radius: 8px;
@@ -78,6 +78,10 @@ main {
 .slidebar-left-nav a img {
   color: white;
   width: 22px;
+}
+
+.wykop-p {
+  color: var(--wykop-pFontColor);
 }
 
 .slidebar-left-main-ul {
@@ -90,7 +94,7 @@ main {
   display: flex;
   padding: 6px 10px;
   text-decoration: none;
-  color: var(--fontWhite);
+  color: var(--slidebarLeftFontColor);
   font-size: 16px;
   border-radius: 8px;
 }
@@ -252,7 +256,7 @@ main {
 .form-container {
   display: flex;
   align-items: center;
-  background-color: var(--black);
+  background-color: var(--headerInputBackground);
   border: 1px solid rgb(44, 44, 44);
   border-radius: 6px;
   width: 260px;
@@ -271,7 +275,7 @@ main {
 }
 
 .input-search {
-  background-color: var(--black);
+  background-color: var(--headerInputBackground);
   border: none;
   outline: none;
   width: 100%;
@@ -282,5 +286,5 @@ main {
 }
 
 .input-search::placeholder {
-  color: #def5ff;
+  color: var(--headerSearchPlaceholderColor);
 }

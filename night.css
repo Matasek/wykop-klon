@@ -1,10 +1,15 @@
 :root {
-  --black: #000;
+  --bodyBackground: #000;
+  --headerInputBackground: #000;
   --headerColor: #3c3c3c;
   --headerColorBright: #565656;
   --fontWhite: #dddddd;
   --headerButtonBackground: rgba(255, 255, 255, 0.1);
   --navMainBorderRadius: 8px;
+  --headerSearchPlaceholderColor: #def5ff;
+  --sliderLeftBackground: #1d1d1f;
+  --slidebarLeftFontColor: #dddddd;
+  --wykop-pFontColor: #dddddd;
 }
 
 * {
@@ -14,7 +19,7 @@
 }
 
 body {
-  background-color: var(--black);
+  background-color: var(--bodyBackground);
   color: var(--fontWhite);
   font-family: "Open Sans", sans-serif;
 }

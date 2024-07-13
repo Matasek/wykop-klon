@@ -1,6 +1,11 @@
 .night-mode {
+  display: flex;
+  align-items: center;
   margin: 12px;
   margin-top: 4rem;
+}
+.night-mode-txt {
+  padding: 4px;
 }
 .switch {
   position: relative;
@@ -22,22 +27,23 @@
   left: 0;
   right: 0;
   bottom: 0;
-
   background-color: #2196f3;
   transition: 0.4s;
-  border-radius: 34px;
+  border-radius: 20px;
+  height: 30px;
 }
 
 .slider:before {
   position: absolute;
+  color: #4383af;
   content: "\f185"; /* kod ikony Font Awesome dla słońca */
   display: flex;
   justify-content: center;
   align-items: center;
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
-  height: 26px;
-  width: 26px;
+  height: 22px;
+  width: 22px;
   left: 4px;
   bottom: 4px;
   background-color: white;
@@ -50,6 +56,7 @@ input:checked + .slider {
 }
 
 input:checked + .slider:before {
+  color: #6a6a6a;
   content: "\f186"; /* kod ikony Font Awesome dla księżyca */
   display: flex;
   justify-content: center;
