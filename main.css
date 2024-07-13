@@ -1,24 +1,3 @@
-:root {
-  --black: #000;
-  --headerColor: #3c3c3c;
-  --headerColorBright: #565656;
-  --fontWhite: #dddddd;
-  --headerButtonBackground: rgba(255, 255, 255, 0.1);
-  --navMainBorderRadius: 8px;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  background-color: var(--black);
-  color: var(--fontWhite);
-  font-family: "Open Sans", sans-serif;
-}
-
 /* MAIN */
 
 main {
