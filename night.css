@@ -5,7 +5,7 @@
   --headerColorBright: #565656;
   --fontWhite: #dddddd;
   --fontOrange: rgb(239, 112, 63);
-  --headerButtonBackground: rgba(255, 255, 255, 0.1);
+  --headerButtonBackground: #ffffff1a;
   --navMainBorderRadius: 8px;
   --headerSearchPlaceholderColor: #def5ff;
   --sliderLeftBackground: #1d1d1f;
@@ -14,6 +14,21 @@
   --wykop-pFontColor: #dddddd;
   --articles-menu-font-color: #929292;
   --countBorder: #dddddd;
+  --buttonCountBackground: #dddddd;
+  --buttonFontColor: #000;
+  --articleTextHeaderFontColor: #ddd;
+  --arcticleRightHeaderFontColor: #dddddd;
+  --articlesRightHeaderFontColor: #929292;
+  --articlesMenuH1: #d3d3d3;
+  --articesMenuPFontColor: #929292;
+  --nightModeFontColor: #d3d3d3;
+  --articleTextFontColor: #dddddd;
+  --articleFooterFontColor: #929292;
+  --hitsHeaderFontColor: #dddddd;
+  --hitsHeaderTextFontColor: #dddddd;
+  --hitsContainerBottomColor: #2d2d2f;
+  --articleBodyBorderColor: #2d2d2f;
+  --articleBodyAsideBackgroundColor: #000;
 }
 
 * {

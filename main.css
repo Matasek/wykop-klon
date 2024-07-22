@@ -28,7 +28,7 @@ main {
   max-width: 100%;
   margin-bottom: 60px;
   padding-bottom: 20px;
-  border-bottom: 1px solid var(--sliderLeftBackground);
+  border-bottom: 1px solid var(--hitsContainerBottomColor);
   /* background-color: brown; */
 }
 
@@ -85,10 +85,12 @@ main {
 .hits-header h1 {
   font-size: 14px;
   padding: 4px;
+  color: var(--hitsHeaderFontColor);
 }
 .hits-header p {
   font-size: 14px;
   padding: 4px;
+  color: var(--hitsHeaderTextFontColor);
 }
 
 .likes-count {
@@ -291,7 +293,8 @@ main {
   text-align: center;
   transition: background-color 0.25s ease, border-radius 0.25s ease;
 }
-.main-menu-li:hover {
+.main-menu-li:hover,
+.main-menu-li.active {
   cursor: pointer;
   background-color: var(--headerColorBright);
   border-radius: var(--navMainBorderRadius);
@@ -430,12 +433,12 @@ main {
 
 .articles-menu h1 {
   font-size: 14px;
-  color: var(--fontWhite);
+  color: var(--articlesMenuH1);
   margin-right: 20px;
 }
 
 .articles-menu p {
-  color: var(--articles-menu-font-color);
+  color: var(--articesMenuPFontColor);
   font-size: 14px;
   margin-right: 20px;
 }
@@ -448,7 +451,7 @@ main {
   margin: 20px 0;
   background-color: var(--sliderLeftBackground);
   border-radius: 10px;
-  border: 1px solid var(--slidebarLeftBackgroundHover);
+  border: 1px solid var(--articleBodyBorderColor);
 }
 
 .article-body aside {
@@ -472,15 +475,17 @@ main {
   font-size: 14px;
   font-weight: 700;
   color: var(--fontOrange);
-  background-color: var(--bodyBackground);
+  background-color: var(--articleBodyAsideBackgroundColor);
 }
 .article-body aside button {
   width: 55px;
   height: 22px;
   font-size: 10px;
   margin-top: 4px;
-  /* border: 1px solid purple; */
+  border: 1px solid var(--buttonCountBackground);
+  background-color: var(--buttonCountBackground);
   border-radius: 4px;
+  color: var(--buttonFontColor);
 }
 .article {
   display: flex;
@@ -496,12 +501,14 @@ main {
   /* background-color: blue; */
 }
 .article-text header h1 {
+  color: var(--articleTextHeaderFontColor);
   font-size: 19px;
   font-weight: 500;
 }
 .article-text p {
   margin: 10px 0;
   font-size: 14px;
+  color: var(--articleTextFontColor);
 }
 
 .article-photo {
@@ -523,6 +530,7 @@ main {
   display: flex;
   min-height: 80px;
   flex-wrap: wrap;
+  color: var(--articleFooterFontColor);
 }
 
 .article footer p {
@@ -561,7 +569,11 @@ main {
 }
 
 .articles-right-header h2 {
+  color: var(--articlesRightHeaderFontColor);
   font-size: 16px;
+}
+.articles-right-header p {
+  color: var(--articlesRightHeaderFontColor);
 }
 
 .article-right-body {
@@ -584,6 +596,11 @@ main {
   margin-left: 10px;
   font-size: 14px;
 }
+.article-right-text h1 {
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--arcticleRightHeaderFontColor);
+}
 .article-right-text footer {
   display: flex;
   width: 100%;
@@ -594,4 +611,8 @@ main {
 .article-right-text footer img {
   width: 20px;
   margin-right: 6px;
+}
+
+.night-mode-txt {
+  color: var(--nightModeFontColor);
 }

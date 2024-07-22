@@ -1,5 +1,5 @@
 :root {
-  --bodyBackground: #f4f5f7;
+  --bodyBackground: #f1f1f3;
   --headerInputBackground: #fff;
   --headerColor: #397095;
   --headerColorBright: #4a92c3;
@@ -13,6 +13,21 @@
   --slidebarLeftFontColor: #4383af;
   --wykop-pFontColor: #fff;
   --countBorder: #4383af;
+  --buttonCountBackground: #4383af;
+  --buttonFontColor: #fff;
+  --articleTextHeaderFontColor: #4383af;
+  --arcticleRightHeaderFontColor: #4383af;
+  --articlesRightHeaderFontColor: #1d1d1f;
+  --articlesMenuH1: #1d1d1f;
+  --articesMenuPFontColor: #8aa8b5;
+  --nightModeFontColor: #4383af;
+  --articleTextFontColor: #1d1d1f;
+  --articleFooterFontColor: #8aa8b5;
+  --hitsHeaderFontColor: #1d1d1f;
+  --hitsHeaderTextFontColor: #4383af;
+  --hitsContainerBottomColor: #c6c6c6;
+  --articleBodyBorderColor: #ececec;
+  --articleBodyAsideBackgroundColor: #fff;
 }
 
 * {
