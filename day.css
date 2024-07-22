@@ -4,6 +4,7 @@
   --headerColor: #397095;
   --headerColorBright: #4a92c3;
   --fontWhite: #dddddd;
+  --fontOrange: rgb(239, 112, 63);
   --headerButtonBackground: #4a92c3;
   --navMainBorderRadius: 8px;
   --headerSearchPlaceholderColor: black;
@@ -11,6 +12,7 @@
   --slidebarLeftBackgroundHover: #eff6f8;
   --slidebarLeftFontColor: #4383af;
   --wykop-pFontColor: #fff;
+  --countBorder: #4383af;
 }
 
 * {
