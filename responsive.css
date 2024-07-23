@@ -51,4 +51,33 @@
       display: none;
     }
   }
+
+  @media (max-width: 640px) {
+    .article-left-aside {
+      display: none;
+    }
+    .article-bottom-aside {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 120px;
+    }
+    .article-text {
+      padding: 0 10px;
+      max-width: 100%;
+    }
+    .articles-main {
+      margin: 0;
+    }
+    .article-photo {
+      flex-shrink: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      /* max-width: 250px;
+      max-height: 160px; */
+      padding: 0 10px;
+      max-width: 35%;
+    }
+  }
 }
