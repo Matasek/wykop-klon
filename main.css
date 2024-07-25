@@ -467,9 +467,6 @@ main {
   justify-content: top;
   align-items: center;
 }
-.article-bottom-aside {
-  display: none;
-}
 .article-body aside p {
   display: flex;
   justify-content: center;

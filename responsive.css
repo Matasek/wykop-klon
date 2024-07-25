@@ -53,15 +53,19 @@
   }
 
   @media (max-width: 640px) {
-    .article-left-aside {
-      display: none;
-    }
-    .article-bottom-aside {
+    .article-body {
       display: flex;
-      justify-content: space-between;
-      align-items: center;
-      max-width: 120px;
+      flex-wrap: wrap-reverse;
     }
+    .article-left-aside {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      width: 140px;
+      justify-content: space-between;
+      padding: 10px;
+    }
+
     .article-text {
       padding: 0 10px;
       max-width: 100%;
