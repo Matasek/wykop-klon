@@ -617,3 +617,27 @@ main {
 .night-mode-txt {
   color: var(--nightModeFontColor);
 }
+
+/* COMMENTARY */
+
+.commentary-section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.commentary-section-left {
+  width: 50%;
+  display: flex;
+}
+
+.commentary-section-right {
+  width: 50%;
+}
+
+.commentary-section-footer {
+  width: 100%;
+}
+
+.commentary-header-text {
+  font-size: 1rem;
+}

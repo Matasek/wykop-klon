@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wykop - klon by MacKry</title>
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="night.css" id="themeStylesheet" />
+    <link rel="stylesheet" href="slider.css" />
+    <link rel="stylesheet" href="responsive.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-left">
+        <button class="header-button" id="header-button">
+          <img src="icons/menu-svgrepo-com(1).svg" alt="menu-icon" />
+        </button>
+        <div class="header-logo">
+          <img src="icons/WykopLogo.png" alt="wykop logo" class="logo-wykop" />
+        </div>
+        <nav class="main-menu">
+          <ul class="main-menu-ul">
+            <li class="main-menu-li active">Główna</li>
+            <li class="main-menu-li-wykopalisko">
+              Wykopalisko
+              <strong class="wykopalisko-number">268</strong>
+            </li>
+            <li class="main-menu-li-mikroblog">Mikroblog</li>
+          </ul>
+        </nav>
+      </div>
+      <div class="header-right">
+        <section class="search">
+          <form id="form" class="form-container">
+            <label class="form-search" for="form">
+              <img src="icons/lupa.png" alt="icon" class="search-icon" />
+            </label>
+            <input
+              type="text"
+              class="input-search"
+              placeholder="Szukaj w Wykopie..."
+            />
+          </form>
+        </section>
+        <nav class="user-nav">
+          <div class="icons">
+            <img src="icons/koperta.png" alt="icon" />
+          </div>
+          <div class="icons"><img src="icons/dzwonek.png" alt="icon" /></div>
+          <div class="icons"><img src="icons/hash.png" alt="icon" /></div>
+          <button class="search-button">
+            <img src="icons/lupa.png" alt="icon" class="search-icon" />
+          </button>
+          <div class="icon-user"><img src="icons/avatar.png" alt="icon" /></div>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <aside class="slidebar-left" id="slidebar-left">
+        <div
+          class="slidebar-left-content-large"
+          id="slidebar-left-content-large"
+        >
+          <div class="slidebar-left-content-icons">
+            <div id="slidebar-top-icons" class="slidebar-top-icons">
+              <div class="fire-icon">
+                <i class="fa-solid fa-fire"></i>
+                <div class="icon-text">Hity</div>
+              </div>
+              <div class="fire-icon">
+                <i class="fa-solid fa-eye"></i>
+                <div class="icon-text">Obserwowane</div>
+              </div>
+              <div class="fire-icon">
+                <i class="fa-regular fa-star"></i>
+                <div class="icon-text">Ulubione</div>
+              </div>
+            </div>
+          </div>
+          <div class="slidebar-left-nav">
+            <ul class="slidebar-left-main-ul">
+              <li>
+                <a href="#"
+                  ><img src="icons/house-svgrepo-com.svg " alt="house icon" />
+                  <p class="wykop-p">Wykop.pl</p></a
+                >
+              </li>
+            </ul>
+            <ul class="slidebar-left-second-ul">
+              <li>
+                <a href="#"
+                  ><img src="icons/bulb-2-svgrepo-com.svg " alt="house icon" />
+                  <p>Ciekawostki</p></a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><img src="icons/files-svgrepo-com.svg" alt="house icon" />
+                  <p>Informacje</p></a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><img
+                    src="icons/electronic-controller-gamepad-svgrepo-com.svg "
+                    alt="house icon"
+                  />
+                  <p>Rozrywka</p></a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><img
+                    src="icons/shirt-outline-svgrepo-com.svg"
+                    alt="house icon"
+                  />
+                  <p>Sport</p></a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><img
+                    src="icons/steering-wheel-svgrepo-com.svg "
+                    alt="house icon"
+                  />
+                  <p>Motoryzacja</p></a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><img src="icons/chip-svgrepo-com.svg " alt="house icon" />
+                  <p>Technologia</p></a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><img src="icons/rocket-svgrepo-com.svg " alt="house icon" />
+                  <p>Ukraina</p></a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><img
+                    src="icons/coins-dollar-money-currency-finance-payment-svgrepo-com.svg "
+                    alt="house icon"
+                  />
+                  <p>Gospodarka</p></a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><img
+                    src="icons/suitcase-tag-svgrepo-com.svg"
+                    alt="house icon"
+                  />
+                  <p>Podróże</p></a
+                >
+              </li>
+            </ul>
+            <div class="night-mode">
+              <label class="switch">
+                <input type="checkbox" id="toggleSwitch" />
+                <span class="slider"></span>
+              </label>
+              <p class="night-mode-txt">Tryb nocny</p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="slidebar-left-content-small"
+          id="slidebar-left-content-small"
+        >
+          ddd
+        </div>
+      </aside>
+      <div class="main-content">
+        <div class="articles-container">
+          <div class="articles-main">
+            <section class="article-body">
+              <aside class="article-left-aside">
+                <p class="like-count">125</p>
+                <button class="like-button">WYKOP</button>
+              </aside>
+              <article class="article">
+                <section class="article-text">
+                  <header>
+                    <h1>Rewolucyjna bateria naładuje się w minute!</h1>
+                  </header>
+                  <p>
+                    Wynaleziono nowy materiał do magazynowania energii
+                    elektrycznej. Przełomowe baterie będzie można ładować
+                    błyskawicznie!
+                  </p>
+                  <footer>
+                    <p>songoku z namek.com</p>
+                    <p>opublikowany: 18 godz. i 44 min temu</p>
+                    <div class="article-comments-tags">
+                      <p>
+                        <img src="icons/icons8-comment-24(2).png" />
+                      </p>
+                      <p>164</p>
+                      <p style="font-weight: bold">&bull;</p>
+                      <p>#nauka</p>
+                      <p>#baterie</p>
+                      <p>#ciekawostki</p>
+                    </div>
+                  </footer>
+                </section>
+                <figure class="article-photo">
+                  <img src="articles/battery.jpeg" alt="battery image" />
+                </figure>
+              </article>
+            </section>
+            <header class="commentary-header">
+              <h2 class="commentary-header-text">KOMENTARZE (22)</h2>
+            </header>
+            <section class="commentary-section">
+              <div class="commentary-section-left">
+                <div class="commentary-section-logo">LOGO</div>
+                <p class="commentary-section-text">TEXT</p>
+              </div>
+              <div class="commentary-section-right">lajki</div>
+              <footer class="commentary-section-footer">Footer</footer>
+            </section>
+          </div>
+          <aside class="slidebar-right">
+            <header class="articles-right-header">
+              <h2>HITY</h2>
+              <p>tygodnia</p>
+            </header>
+            <article class="article-right-body">
+              <figure class="article-right-image">
+                <img src="articles/taxes.jpg" alt="article-image" />
+              </figure>
+              <section class="article-right-text">
+                <h1>
+                  Rząd Polski obniża tymczasowy VAT i likwiduje podatek
+                  dochodowy.
+                </h1>
+                <footer>
+                  <img src="icons/wykop.png" alt="w-icon" />
+                  <p>1201</p>
+                </footer>
+              </section>
+            </article>
+            <article class="article-right-body">
+              <figure class="article-right-image">
+                <img src="articles/toiler-papier.jpg" alt="article-image" />
+              </figure>
+              <section class="article-right-text">
+                <h1>
+                  Po wprowadzeniu białego ładu w sklepach zabrakło papieru
+                  toaletowego.
+                </h1>
+                <footer>
+                  <img src="icons/wykop.png" alt="w-icon" />
+                  <p>1109</p>
+                </footer>
+              </section>
+            </article>
+            <article class="article-right-body">
+              <figure class="article-right-image">
+                <img
+                  src="articles/football-polish-reprezentation.jpg"
+                  alt="article-image"
+                />
+              </figure>
+              <section class="article-right-text">
+                <h1>
+                  Polska reprezentacja awansuje do finału mistrzostw świata!
+                </h1>
+                <footer>
+                  <img src="icons/wykop.png" alt="w-icon" />
+                  <p>1043</p>
+                </footer>
+              </section>
+            </article>
+            <article class="article-right-body">
+              <figure class="article-right-image">
+                <img src="articles/18-birthday.jpg" alt="article-image" />
+              </figure>
+              <section class="article-right-text">
+                <h1>
+                  Krzysztof Ibisz zaprasza na swoją osiemnastkę w Bieszczadach.
+                </h1>
+                <footer>
+                  <img src="icons/wykop.png" alt="w-icon" />
+                  <p>1186</p>
+                </footer>
+              </section>
+            </article>
+          </aside>
+        </div>
+      </div>
+    </main>
+    <script src="slidebarButton.js"></script>
+    <script src="slider.js"></script>
+    <script src="likesCount.js"></script>
+  </body>
+</html>
