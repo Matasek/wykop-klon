@@ -623,6 +623,9 @@ main {
 .commentary-section {
   display: flex;
   flex-wrap: wrap;
+  background-color: var(--sliderLeftBackground);
+  border-radius: 10px;
+  border: 1px solid var(--articleBodyBorderColor);
 }
 
 .commentary-section-left {
