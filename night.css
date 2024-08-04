@@ -29,6 +29,19 @@
   --hitsContainerBottomColor: #2d2d2f;
   --articleBodyBorderColor: #2d2d2f;
   --articleBodyAsideBackgroundColor: #000;
+
+  --navMainBorderRadius: 8px;
+  --black:#000;
+  --darkGray: #3c3c3c;
+  --dimGray: #565656;
+  --veryLightGray:#dddddd;
+  --lightGray:#d3d3d3;
+  --orangeRed: #ef703f;
+  --semiTransparentWhite:#ffffff1a;
+  --lightBlue:#def5ff;
+  --veryDarkGrey:#1d1d1f;
+  --charcoalGrey:#2d2d2f;
+  --mediumGray:#929292;
 }
 
 * {
@@ -38,7 +51,7 @@
 }
 
 body {
-  background-color: var(--bodyBackground);
-  color: var(--fontWhite);
+  background-color: var(--black);
+  color: var(--veryLightGray);
   font-family: "Open Sans", sans-serif;
 }
