@@ -618,6 +618,40 @@ main {
   color: var(--nightModeFontColor);
 }
 
+/* ARTICLE INSIDE */
+
+.article-answer-section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.article-answer p {
+  padding: 8px;
+
+}
+
+.article-answer {
+
+  font-size: 0.75rem;
+  color: var(--articesMenuPFontColor);
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.article-answer-icon{
+  width: 20px;
+
+}
+.article-share-icon{
+  width: 20px;
+  margin-left: -10px;
+}
+
+
 /* COMMENTARY */
 
 .commentary-section {
