@@ -643,6 +643,7 @@ main {
 
 .commentary-section-footer {
   width: 100%;
+  margin-top: 1rem;
 }
 
 .commentary-header-text {
@@ -677,6 +678,19 @@ main {
 .commentary-section-right{
   display: flex;
   justify-content: end;
+}
+
+.commentary-answer {
+  max-width: 120px;
+  font-size: 0.75rem;
+  color: var(--articesMenuPFontColor);
+  display: flex;
+  align-items: center;
+}
+
+.commentary-answer img {
+  width: 100%;
+  padding: 4px;
 }
 
 .article-likes {
