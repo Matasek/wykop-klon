@@ -627,6 +627,7 @@ main {
   border-radius: 10px;
   border: 1px solid var(--articleBodyBorderColor);
   padding: 20px;
+  margin-top: 1rem;
 }
 
 .commentary-section-left {
