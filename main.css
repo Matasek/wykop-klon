@@ -788,4 +788,8 @@ main {
   transform: translate(-50%, -50%); 
 }
 
+.like-button{
+  cursor: pointer; 
+}
+
 
