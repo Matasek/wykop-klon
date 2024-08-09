@@ -793,3 +793,57 @@ main {
 }
 
 
+/* ANSWER */
+
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(5px); /* Efekt rozmycia tła */
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background: var(--headerButtonBackground); 
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 300px;
+  text-align: center;
+  position: fixed;
+}
+
+.modal-content textarea {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 10px;
+  background: var(--headerButtonBackground); 
+  border: 1px solid var(--headerColorBright);
+  color: var(--articleTextFontColor);
+}
+
+.close {
+  position: absolute;
+  color: var(--articesMenuPFontColor);
+  top: -20px; /* Przesunięcie przycisku nad oknem modalnym */
+  right: 0; /* Pozycjonowanie przycisku na środku */
+  transform: translateX(-50%); /* Środkowanie przycisku */
+  font-size: 24px;
+  cursor: pointer;
+  background: var(--headerButtonBackground); 
+  
+  border-radius: 50%; /* Opcjonalne: zaokrąglenie krawędzi */
+  padding: 5px 10px; /* Opcjonalne: trochę miejsca wokół "X" */
+}
+
+#submit-button{
+  color: var(--articesMenuPFontColor);
+  background: var(--headerButtonBackground); 
+  border: 1px solid var(--headerColorBright);
+  padding: 4px;
+}

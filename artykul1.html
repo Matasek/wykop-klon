@@ -221,7 +221,7 @@
                       <p>164</p>
                       <button class="article-answer">
                         <img src="icons/reply.png" alt="reply icon"   class="article-answer-icon">
-                        <p>Odpowiedz</p>
+                        <p id="answer-button">Odpowiedz</p>
                       </button>
                       <img src="icons/share.png" alt="share icon" class="article-share-icon" >
                     </div>
@@ -332,10 +332,19 @@
         </div>
       </div>
     </main>
+    <div id="modal" class="modal">
+      <div class="modal-content">
+          <span id="close-button" class="close">&times;</span>
+          <h2>Twoja odpowiedź</h2>
+          <textarea placeholder="Wpisz swoją odpowiedź..."></textarea>
+          <button id="submit-button">Wyślij</button>
+      </div>
+  </div>
     <script src="slidebarButton.js"></script>
     <script src="slider.js"></script>
     <script src="likesCount.js"></script>
     <script src="plusMinusCount.js"></script>
+    <script src="answer.js"></script>
   </body>
 </html>
 
