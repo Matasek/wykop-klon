@@ -825,6 +825,7 @@ main {
   background: var(--headerButtonBackground); 
   border: 1px solid var(--headerColorBright);
   color: var(--articleTextFontColor);
+  padding: 4px;
 }
 
 .close {
