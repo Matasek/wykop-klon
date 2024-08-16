@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
       if (themeStylesheet.getAttribute("href") === "night.css") {
         whiteBackground.classList.toggle("show-night");
     } else {
-      
+    
         whiteBackground.classList.toggle("show");
 
     }
