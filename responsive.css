@@ -1,7 +1,7 @@
 @media (max-width: 1280px) {
   .slidebar-left {
     position: absolute;
-    left: -1000px;
+    left: -1001px;
     z-index: 100;
     display: flex;
     justify-content: center;
