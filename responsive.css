@@ -1,6 +1,8 @@
 @media (max-width: 1280px) {
   .slidebar-left {
-    display: none;
+    position: absolute;
+    left: -1000px;
+    z-index: 1;
   }
 }
 
