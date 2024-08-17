@@ -17,6 +17,8 @@ document.addEventListener("DOMContentLoaded", () => {
       whiteBackground.classList.remove("show");
       whiteBackground.classList.remove("show-night");
     }
-    slidebarLeft.classList.toggle("show");
+    if (window.matchMedia("(max-width: 1280px)").matches) {
+      slidebarLeft.classList.toggle("show");
+    }
   });
 });
