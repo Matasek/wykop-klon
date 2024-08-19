@@ -3,6 +3,11 @@ main {
   display: flex;
 }
 
+.header {
+  position: fixed;
+  z-index: 100;
+}
+
 .main-content {
   display: flex;
   flex-wrap: wrap;

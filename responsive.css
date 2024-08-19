@@ -14,7 +14,7 @@
   }
   .slidebar-left.show {
     position: fixed;
-    top: 0;
+    top: 50px;
     left: 0;
   }
 
@@ -28,7 +28,7 @@
     height: 100%;
     background-color: rgba(0, 0, 0, 0.6); /* dla .show */
     position: fixed; /* Zmiana na fixed */
-    top: 0;
+    top: 48px;
     left: 0;
     bottom: 0;
     right: 0;
