@@ -309,7 +309,7 @@ main {
   height: 34px;
   background-color: var(--headerButtonBackground);
   border-radius: 6px;
-  border: 1px solid rgb(46, 46, 46);
+  border: 1px solid var(--headerButtonBorder);
   color: var(--fontWhite);
   display: flex;
   justify-content: center;
@@ -726,6 +726,7 @@ main {
 
 .commentary-header-text {
   font-size: 1rem;
+  color: var(--articleTextFontColor);
 }
 
 .commentary-section-logo {
@@ -751,6 +752,7 @@ main {
 .commentary-section-text {
   padding: 10px 0;
   font-size: 0.9rem;
+  color: var(--articleTextFontColor);
 }
 
 .commentary-section-right {

@@ -3,6 +3,7 @@
   --headerInputBackground: #000;
   --headerColor: #3c3c3c;
   --headerColorBright: #565656;
+  --headerButtonBorder: #1d1d1f;
   --fontWhite: #dddddd;
   --fontOrange: #ef703f;
   --headerButtonBackground: #ffffff1a;
@@ -31,17 +32,17 @@
   --articleBodyAsideBackgroundColor: #000;
 
   --navMainBorderRadius: 8px;
-  --black:#000;
+  --black: #000;
   --darkGray: #3c3c3c;
   --dimGray: #565656;
-  --veryLightGray:#dddddd;
-  --lightGray:#d3d3d3;
+  --veryLightGray: #dddddd;
+  --lightGray: #d3d3d3;
   --orangeRed: #ef703f;
-  --semiTransparentWhite:#ffffff1a;
-  --lightBlue:#def5ff;
-  --veryDarkGrey:#1d1d1f;
-  --charcoalGrey:#2d2d2f;
-  --mediumGray:#929292;
+  --semiTransparentWhite: #ffffff1a;
+  --lightBlue: #def5ff;
+  --veryDarkGrey: #1d1d1f;
+  --charcoalGrey: #2d2d2f;
+  --mediumGray: #929292;
 }
 
 * {

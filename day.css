@@ -3,6 +3,7 @@
   --headerInputBackground: #fff;
   --headerColor: #397095;
   --headerColorBright: #4a92c3;
+  --headerButtonBorder: #4fa8e4;
   --fontWhite: #dddddd;
   --fontOrange: #ef703f;
   --headerButtonBackground: #4a92c3;
@@ -28,7 +29,6 @@
   --hitsContainerBottomColor: #c6c6c6;
   --articleBodyBorderColor: #ececec;
   --articleBodyAsideBackgroundColor: #fff;
-
 }
 * {
   margin: 0;
