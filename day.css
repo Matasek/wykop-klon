@@ -29,6 +29,8 @@
   --hitsContainerBottomColor: #c6c6c6;
   --articleBodyBorderColor: #ececec;
   --articleBodyAsideBackgroundColor: #fff;
+  --modalBackground: #ffffff1a;
+  --modalTextAreaBackground: #ebebeb;
 }
 * {
   margin: 0;
