@@ -716,6 +716,10 @@ main {
   color: var(--fontWhite);
 }
 
+.article-right-text a {
+  text-decoration: none;
+}
+
 /* COMMENTARY */
 
 .commentary-section {
