@@ -702,6 +702,20 @@ main {
   margin-left: -10px;
 }
 
+/* ARTICLES  LINKS */
+
+.play-link,
+.play-link:visited {
+  text-decoration: none;
+  color: var(--articleFooterFontColor);
+  font-weight: 700;
+}
+
+.hit-article a {
+  text-decoration: none;
+  color: var(--fontWhite);
+}
+
 /* COMMENTARY */
 
 .commentary-section {
