@@ -542,16 +542,23 @@ main {
 }
 .article {
   display: flex;
+  flex-wrap: wrap;
   width: 100%;
   justify-content: space-between;
 }
 
-.article-text {
-  flex-grow: 1;
-  max-width: 60%;
-  padding-right: 20px;
+.article-header {
+  width: 100%;
+  padding: 10px;
 }
-.article-text header h1 {
+
+.article-text {
+  flex: 1 1 auto; /* Pozwala na dostosowanie rozmiaru do dostępnej przestrzeni */
+  max-width: 60%; /* Ustal minimalną szerokość dla tekstu */
+  box-sizing: border-box;
+  padding-right: 10px;
+}
+.article header h1 {
   color: var(--articleTextHeaderFontColor);
   font-size: 19px;
   font-weight: 500;
@@ -562,23 +569,24 @@ main {
   color: var(--articleTextFontColor);
 }
 
-.article-text a {
+.article a {
   text-decoration: none;
 }
 
 .article-photo {
-  flex-grow: 0;
+  flex: 0 1 auto; /* Element dostosowuje się, ale nie rośnie poza swoją zawartość */
+  max-width: 40%; /* Maksymalna szerokość zdjęcia */
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 250px;
-  max-height: 160px;
-  padding: 0 10px;
+  padding: 10px;
+  /* box-sizing: border-box; */
 }
 
 .article-photo img {
-  width: 90%;
-  min-height: 100px;
+  width: 100%; /* Zdjęcie wypełnia całą szerokość kontenera */
+  max-width: 100%;
+  height: auto;
   border-radius: 10px;
 }
 

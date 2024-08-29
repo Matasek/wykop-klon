@@ -114,8 +114,9 @@
 
     .article-text {
       padding: 0 10px;
-      max-width: 100%;
+      max-width: 60%;
     }
+
     .articles-main {
       margin: 0;
     }
@@ -127,7 +128,8 @@
       /* max-width: 250px;
       max-height: 160px; */
       padding: 0 10px;
-      max-width: 35%;
+      max-width: 40%;
+      height: 70%;
     }
   }
 }
